@@ -1,0 +1,17 @@
+.top-box{
+    background-color: var(--white);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    height: auto;
+    padding: 10px;
+    min-height: 80px;
+    font-family: 'Montserrat';
+}
+
+.label{
+  font-size: 0.75rem;
+}
+
+.value-num{
+  margin-top:5px;
+  font-size: 1.5rem;
+}

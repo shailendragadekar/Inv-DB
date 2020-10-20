@@ -1,0 +1,13 @@
+
+
+.header{
+  height:35px;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);color:white;
+  font-weight: 700;
+  padding:5px;
+}
+
+.encl-head{
+  font-family: 'Montserrat';
+}
+
