@@ -24,9 +24,9 @@ export class DashboardComponent implements OnInit {
       });
     });
     this.chartOptions = {
-      chart:{
-        style:{
-          fontFamily:'Montserrat'
+      chart: {
+        style: {
+          fontFamily: "Montserrat"
         }
       },
       rangeSelector: {
@@ -37,6 +37,13 @@ export class DashboardComponent implements OnInit {
       },
       credits: {
         enabled: false
+      },
+      tooltip: {
+        useHTML: true,
+        formatter: function() {
+          var point = this;
+          return `<div>` + moment(point.x).format("DD-MMM-YYYY") + `</div><div> Portfolio Value : `+point.y+`</div>`;
+        }
       },
       series: [
         {
